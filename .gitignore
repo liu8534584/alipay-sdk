@@ -1,0 +1,6 @@
+.idea/
+php_errors.log
+logs/
+tags
+cscope.*
+vendor/

@@ -1,0 +1,20 @@
+{
+    "name": "liu8534584/alipay-sdk",
+    "description": "支付宝sdk composer库 支持证书模式",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "ext-openssl": "*"
+    },
+    "authors": [
+        {
+            "name": "liuda",
+            "email": "liu8534584@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alipay\\": "aop/"
+        }
+    }
+}
