@@ -598,6 +598,7 @@ class AopCertClient
             $apiParams['biz_content'] = $enCryptContent;
         }
 
+
         //签名
         $sysParams["sign"] = $this->generateSign(array_merge($apiParams, $sysParams), $this->signType);
 
